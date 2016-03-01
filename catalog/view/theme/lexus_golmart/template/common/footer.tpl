@@ -75,8 +75,6 @@
         <div class="copyright pull-left">
         <?php if( $helper->getConfig('enable_custom_copyright', 0) ) { ?>
           <?php echo html_entity_decode($helper->getConfig('copyright')); ?>
-        <?php } else { ?>
-          <?php echo $powered; ?>. 
         <?php } ?>
         </div> 
         <div class="pull-right">
@@ -92,28 +90,9 @@
 <div id="top" class="bo-social-icons">
     <a href="#" class="bo-social-gray radius-x scrollup"><i class="fa fa-angle-up"></i></a>
   </div>
-
-
-<?php if( $helper->getConfig('enable_paneltool',0) ){  ?>
-  <?php  echo $helper->renderAddon( 'panel' );?>
-<?php } ?>
-
 </div>
-<?php
-  $offcanvas = $helper->getConfig('offcanvas','category');
-  if($offcanvas == "megamenu") {
-      echo $helper->renderAddon( 'offcanvas');
-  } else {
-      echo $helper->renderAddon( 'offcanvas-category');
-  }
-
-  ?> 
 </div>
-<nav class="bs-docs-sidebar hidden">
-	<ul id="sidebar" class="nav nav-stacked fixed">
 
-	</ul>
-</nav>
 <?php echo html_entity_decode($config_chat_online); ?>
 </body></html>
 

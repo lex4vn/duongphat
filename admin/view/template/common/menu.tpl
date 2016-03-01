@@ -13,18 +13,15 @@
                     <li><a href="<?php echo $attribute_group; ?>"><?php echo $text_attribute_group; ?></a></li>
                 </ul>
             </li>
-            <li><a href="<?php echo $deals; ?>"><?php echo $text_deals; ?></a></li>
-            <li class="hidden"><a href="<?php echo $option; ?>"><?php echo $text_option; ?></a></li>
-            <!-- <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li> -->
         </ul>
     </li>
     <li class=""><a href="<?php echo $news; ?>"><i class="fa fa-info-circle fa-fw"></i>
             <span><?php echo $text_news; ?></span></a></li>
     <li><a href="<?php echo $information; ?>"><i class="fa fa-info fa-fw"></i>
             <span><?php echo $text_information; ?></span></a></li>
-    <li><a href="<?php echo $banner; ?>"><i class="fa fa-image fa-fw"></i> <span><?php echo $text_banner; ?></span></a>
+    <li class="hidden"><a href="<?php echo $banner; ?>"><i class="fa fa-image fa-fw"></i> <span><?php echo $text_banner; ?></span></a>
     </li>
-    <li><a href="<?php echo $bannerslideshow; ?>"><i class="fa fa-image fa-fw"></i>
+    <li  class="hidden"><a href="<?php echo $bannerslideshow; ?>"><i class="fa fa-image fa-fw"></i>
             <span><?php echo $text_bannerslideshow; ?></span></a></li>
 
     <li><a href="<?php echo $pavverticalmenu; ?>"><i class="fa fa-info-circle fa-fw"></i>
@@ -54,7 +51,7 @@
             </li>
         </ul>
     </li>
-    <li id="customer"><a class="parent"><i class="fa fa-user fa-fw"></i> <span><?php echo $text_customer; ?></span></a>
+    <li id="customer"   class="hidden"><a class="parent"><i class="fa fa-user fa-fw"></i> <span><?php echo $text_customer; ?></span></a>
         <ul>
             <li><a href="<?php echo $customer; ?>"><?php echo $text_customer; ?></a></li>
             <li><a href="<?php echo $customer_group; ?>"><?php echo $text_customer_group; ?></a></li>
@@ -73,12 +70,12 @@
             <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
         </ul>
     </li>
-    <li><a href="<?php echo $pavnewsletter; ?>"><i class="fa fa-envelope fa-fw"></i>
+    <li   class="hidden"><a href="<?php echo $pavnewsletter; ?>"><i class="fa fa-envelope fa-fw"></i>
             <span><?php echo $text_pavnewsletter; ?></span></a></li>
     <li id="system" class=""><a class="parent"><i class="fa fa-cog fa-fw"></i> <span><?php echo $text_system; ?></span></a>
         <ul>
             <li><a href="<?php echo $interface; ?>"><span><?php echo $text_interface; ?></span></a></li>
-            <li><a href="<?php echo $pavreassurance; ?>"><span><?php echo $text_pavreassurance; ?></span></a></li>
+            <li  class="hidden"><a href="<?php echo $pavreassurance; ?>"><span><?php echo $text_pavreassurance; ?></span></a></li>
             <li><a href="<?php echo $setting; ?>"><?php echo $text_setting; ?></a></li>
             <li><a href="<?php echo $chat; ?>"><span><?php echo $text_chat; ?></span></a></li>
             <li><a href="<?php echo $layout; ?>"><span><?php echo $text_design; ?></span></a></li>

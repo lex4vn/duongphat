@@ -37,7 +37,7 @@ $_['text_bestseller'] = 'Bán chạy';
 $_['text_special'] = 'Khuyến mãi';
 $_['text_mostviewed'] = 'Xem nhiều nhất';
 $_['text_heading_title'] = 'Giỏ hàng';
-$_['text_all_category']  = 'Danh mục sản phẩm';
+$_['text_all_category']  = 'Sản phẩm';
 $_['text_dont_miss']  = 'Đừng bỏ lỡ';
 $_['text_display']  = 'Xem';
 

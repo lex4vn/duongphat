@@ -90,6 +90,8 @@
 				<?php if(  isset($imodules) && is_array($imodules) ){ ?>
 				 <li><a data-toggle="tab"  href="#tab-imodules"><span class="fa fa-gears"></span> <?php echo $olang->get('tab_internal_modules');?></a></li>
 				<?php } ?>
+				 <li><a data-toggle="tab"  href="#tab-pages-layout"><span class="fa fa-files-o"></span> <?php echo $olang->get('tab_modules_pages');?></a></li>
+				
 		</ul>
 		 </div>
 		 <input type="hidden" name="themecontrol[layout_id]" value="1">
@@ -136,7 +138,9 @@
 		  			 </div>
 		  			 <?php } ?>
 				</div>
-				
+				<div id="tab-pages-layout"  class="tab-pane">
+		  			 <?php include( $adminModuleViewDir.'tab/pages-setting.tpl'); ?>
+				</div>  
 				<?php if(  isset($imodules) && is_array($imodules) ){ ?>
 				<div id="tab-imodules"  class="tab-pane">
 					<div class="inner-modules-wrap clearfix">

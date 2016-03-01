@@ -10,6 +10,16 @@
 ?>
 
 <header id="header-layout"  class="header-v1">
+<nav id="topbar">
+  <div class="container">
+    <div class="topbar-wrap clearfix">
+      <div class="pull-right">
+       <?php echo $language; ?>
+      </div>
+    </div>
+ 
+  </div>
+</nav>
 <div class="header-top">
   <div class="container">
     <div class="inside">
@@ -23,16 +33,18 @@
           <?php } ?>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs line">
-           <?php
-            if (count($autosearch) && !empty($autosearch)) {
-            echo $autosearch;
-            } else {
-            echo $search;
-            }
-            ?>
+          <?php if( $content=$helper->getLangConfig('widget_contact') ) {?>
+            <div class="box-support">
+              <?php echo $content; ?>
+            </div>
+          <?php } ?> 
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 text-center hidden-xs">
-          <?php echo $cart; ?>       
+          <?php if( $content=$helper->getLangConfig('widget_support') ) {?>
+            <div class="box-support">
+              <?php echo $content; ?>
+            </div>
+          <?php } ?> 
         </div>
       </div>
     </div>
@@ -43,9 +55,7 @@
     <div class="container">
       <div class="row no-margin">
         <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 no-padding hidden-xs hidden-sm">
-          <?php if(!empty($verticalmenu)) { ?>
-          <?php echo $verticalmenu; ?>
-          <?php } ?>
+
         </div>
         <div class="main-menu col-md-9 col-sm-8 no-padding">
           <!-- menu -->

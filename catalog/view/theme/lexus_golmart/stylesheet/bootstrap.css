@@ -3337,7 +3337,7 @@ select[multiple].input-lg,
   -ms-user-select: none;
   user-select: none;
   text-transform: uppercase;
-  font-family: Helvetica,Arial, sans-serif;
+  font-family: Tahoma,Arial, sans-serif;
   height: 42px;
 }
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
