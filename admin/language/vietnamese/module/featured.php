@@ -1,18 +1,18 @@
 <?php
 // Heading
-$_['heading_title']       = 'Sản phẩm Nổi bật';
+$_['heading_title']       = 'Sản phẩm thế mạnh';
 
 // Text
 $_['text_module']         = 'Mô-đun';
-$_['text_success']        = 'Thành công: mô-đun Sản phẩm Nổi bật đã được thay đổi!';
+$_['text_success']        = 'Thành công: mô-đun Sản phẩm thế mạnh đã được thay đổi!';
 $_['text_content_top']    = 'Đầu nội dung ';
 $_['text_content_bottom'] = 'Cuối nội dung';
 $_['text_column_left']    = 'Cột trái';
 $_['text_column_right']   = 'Cột phải';
 
 // Entry
-$_['entry_product']       = 'Sản phẩm:';
-$_['entry_limit']         = 'Giới hạn:';
+$_['entry_product']       = 'Chọn sản phẩm:';
+$_['entry_limit']         = 'Giới hạn số lượng sản phẩm:';
 $_['entry_image']         = 'Hình (W x H):';
 $_['entry_layout']        = 'Bố cục:';
 $_['entry_position']      = 'Vị trí:';

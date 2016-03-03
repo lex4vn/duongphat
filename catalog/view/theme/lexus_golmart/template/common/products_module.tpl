@@ -1,7 +1,7 @@
 <?php
 	$config = $this->registry->get('config');
 	$theme  = $config->get('config_template');
-	$cols = isset($customcols)? $customcols : 2;
+	$cols = isset($customcols)? $customcols : 4;
 	$span = 12/$cols;
 					$themeConfig  	 			= (array)$config->get('themecontrol');
 						$listingConfig  			= array(

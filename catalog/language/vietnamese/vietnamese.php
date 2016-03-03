@@ -51,6 +51,7 @@ $_['button_login']          = 'Đăng nhập';
 $_['button_update']         = 'Cập nhật';
 $_['button_remove']         = 'Loại bỏ';
 $_['button_reorder']        = 'Đặt hàng lại';
+$_['button_booking']        = 'Đặt hàng';
 $_['button_return']         = 'Đổi / Trả Hàng';
 $_['button_shopping']       = 'Tiếp tục mua hàng';
 $_['button_search']         = 'Tìm kiếm';

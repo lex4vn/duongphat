@@ -24,7 +24,7 @@
   <div class="container">
     <div class="inside">
       <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+        <div class="col-xs-12 col-sm-2 col-md-2 text-center">
           <!-- logo -->
           <?php if( $logoType=='logo-theme'){ ?>
           <div  id="logo-theme" class="logo-store"><a href="<?php echo $home; ?>" class="img-responsive"><span><?php echo $name; ?></span></a></div>
@@ -39,7 +39,7 @@
             </div>
           <?php } ?> 
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 text-center hidden-xs">
+        <div class="col-xs-12 col-sm-4 col-md-4 text-center hidden-xs">
           <?php if( $content=$helper->getLangConfig('widget_support') ) {?>
             <div class="box-support">
               <?php echo $content; ?>
@@ -54,10 +54,7 @@
   <div class="header-bottom">
     <div class="container">
       <div class="row no-margin">
-        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 no-padding hidden-xs hidden-sm">
-
-        </div>
-        <div class="main-menu col-md-9 col-sm-8 no-padding">
+        <div class="main-menu col-xs-2  col-md-6 col-sm-6  col-lg-6 no-padding">
           <!-- menu -->
           <div id="pav-mainnav" class="pav-mainnav"><div class="pav-megamenu">
           <button data-toggle="offcanvas" class="btn btn-primary canvas-menu hidden-lg hidden-md" type="button"><span class="fa fa-bars"></span> Menu</button>
@@ -98,7 +95,15 @@
         <!-- menu -->  
         </div>
 
-      
+               <div class="col-xs-10 col-md-6 col-sm-6 col-lg-6 line">
+         <?php
+          if (count($autosearch) && !empty($autosearch)) {
+          echo $autosearch;
+          } else {
+          echo $search;
+          }
+          ?>
+      </div>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@
             <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
             <li><a href="<?php echo $product; ?>"><?php echo $text_product; ?></a></li>
             <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+			<li><a href="<?php echo $featured; ?>"><?php echo $text_featured; ?></a></li>
             <li><a href="<?php echo $filter; ?>"><?php echo $text_filter; ?></a></li>
             <li class="hidden1"><a class="parent"><?php echo $text_attribute; ?></a>
                 <ul>

@@ -77,7 +77,7 @@
           <?php echo html_entity_decode($helper->getConfig('copyright')); ?>
         <?php } ?>
         </div> 
-        <div class="pull-right">
+        <div class="pull-right space-padding-lr-40">
           <?php if( $content=$helper->getLangConfig('widget_papal') ) {?>
           <?php echo $content; ?>            
           <?php } ?> 

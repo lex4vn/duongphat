@@ -36,6 +36,7 @@ class ControllerCommonMenu extends Controller {
 		$data['text_error_log'] = $this->language->get('text_error_log');
 		$data['text_extension'] = $this->language->get('text_extension');
 		$data['text_feed'] = $this->language->get('text_feed');
+		$data['text_featured'] = $this->language->get('text_featured');
 		$data['text_fraud'] = $this->language->get('text_fraud');
 		$data['text_filter'] = $this->language->get('text_filter');
 		$data['text_geo_zone'] = $this->language->get('text_geo_zone');
@@ -163,6 +164,7 @@ class ControllerCommonMenu extends Controller {
 		$data['pavnewsletter'] = $this->url->link('module/pavnewsletter', 'token=' . $this->session->data['token'], 'SSL');
 		$data['pavreassurance'] = $this->url->link('module/pavreassurance', 'token=' . $this->session->data['token'], 'SSL');
 		$data['deals'] = $this->url->link('module/pavdeals', 'token=' . $this->session->data['token'], 'SSL');
+		$data['featured'] = $this->url->link('module/featured', 'token=' . $this->session->data['token'].'&module_id=107', 'SSL');
 		$data['option'] = $this->url->link('catalog/option', 'token=' . $this->session->data['token'], 'SSL');
 		$data['order'] = $this->url->link('sale/order', 'token=' . $this->session->data['token'], 'SSL');
 		$data['order_status'] = $this->url->link('localisation/order_status', 'token=' . $this->session->data['token'], 'SSL');

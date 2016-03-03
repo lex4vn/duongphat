@@ -67,17 +67,16 @@ $objlang = $this->registry->get('language');
         <div class="action">
           <?php if( !isset($listingConfig['catalog_mode']) || !$listingConfig['catalog_mode'] ) { ?>
           <div class="cart">            
-            <button data-loading-text="Loading..." class="btn btn-dark btn-md" type="button" onclick="cart.addcart('<?php echo $product['product_id']; ?>');">
-              <i class="md md-add-shopping-cart"></i> 
-              <span class=""><?php echo $objlang->get('button_cart'); ?></span>
-            </button>
+            <a href="<?php echo $booking;?>" data-loading-text="Loading..." class="btn btn-dark btn-md" type="button" onclick="cart.addcart('<?php echo $product['product_id']; ?>');">
+              <?php echo $objlang->get('button_booking'); ?>
+            </a>
           </div>
          <?php } ?>
-            <div class="wishlist">
+            <div class="wishlist hidden">
                 <button class="btn btn-dark btn-md " type="button" title="<?php echo $objlang->get("button_wishlist"); ?>" onclick="wishlist.addwishlist('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i><span class=""><?php echo $objlang->get('button_wishlist'); ?></span></button> 
               </div>      
               
-              <div class="compare">     
+              <div class="compare hidden">     
                 <button class="btn btn-dark btn-md" type="button" title="<?php echo $objlang->get("button_compare"); ?>" onclick="compare.addcompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-refresh"></i><span class=""><?php echo $objlang->get('button_compare'); ?></span></button> 
               </div>  
                <!-- zoom image-->

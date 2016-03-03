@@ -4,7 +4,7 @@
 		<input class="search_query form-control" type="text" value="" size="35" autocomplete="off" placeholder="<?php echo $objlang->get("text_search");?>" name="search">
 		<div class="input-group-btn">
 			 <?php if(!empty($categories)) { ?>		
-				<select name="category_id" class="category_filter">
+				<select id='autoSearchCat' name="category_id" class="category_filter">
 					<option value="0"><?php echo $objlang->get("text_category_all"); ?></option>
 					<?php foreach ($categories as $category_1) { ?>
 			        <?php if ($category_1['category_id'] == $category_id) { ?>

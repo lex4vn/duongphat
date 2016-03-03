@@ -8,14 +8,14 @@ $_['text_contact']       = 'Thông tin của Bạn:';
 $_['text_address']       = 'Địa chỉ:';
 $_['text_open']          = 'Giờ Làm việc';
 
-$_['text_email']         = 'Địa chỉ E-Mail:';
+$_['text_email']         = 'Email:';
 $_['text_telephone']     = 'Điện thoại:';
 $_['text_fax']           = 'Fax:';
 $_['text_message']       = '<p>Cảm ơn bạn. Thư liên hệ của bạn đã được gửi đến chúng tôi!</p>';
 
 // Entry Fields
-$_['entry_name']         = 'Họ & Tên:';
-$_['entry_email']        = 'Địa chỉ E-Mail :';
+$_['entry_name']         = 'Họ tên:';
+$_['entry_email']        = 'Email:';
 $_['entry_enquiry']      = 'Nội dung:';
 $_['entry_captcha']	     = 'Nhập các ký tự bên dưới:';
 

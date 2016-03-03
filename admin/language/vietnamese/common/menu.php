@@ -24,6 +24,7 @@ $_['text_design']                      = 'Bố cục';
 $_['text_download']                    = 'File Tải xuống';
 $_['text_error_log']                   = 'Bản Ghi lỗi';
 $_['text_extension']                   = 'Chức năng Mở rộng';
+$_['text_featured']                        = 'Sản phẩm thế mạnh';
 $_['text_feed']                        = 'Hỗ trợ SEO Google';
 $_['text_filter']                      = 'Lọc';
 $_['text_geo_zone']                    = 'Q.lý Khu vực tính Cước vận chuyển';

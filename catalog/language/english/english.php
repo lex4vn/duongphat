@@ -43,6 +43,7 @@ $_['button_update']         = 'Update';
 $_['button_remove']         = 'Remove';
 $_['button_reorder']        = 'Reorder';
 $_['button_return']         = 'Return';
+$_['button_booking']        = 'Book';
 $_['button_shopping']       = 'Continue Shopping';
 $_['button_search']         = 'Search';
 $_['button_shipping']       = 'Apply Shipping';
